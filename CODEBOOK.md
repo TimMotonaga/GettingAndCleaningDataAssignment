@@ -25,9 +25,9 @@ This variable identifies the subject's activity. The possible activities are:
 * Walking
 * Walking Up Stairs
 * Walking Down Stairs
-*Sitting
-*Standing
-*Laying
+* Sitting
+* Standing
+* Laying
 
 ##tBodyAcc-mean()-X
 
