@@ -10,7 +10,7 @@ Subject_train <-read.table("C:/Users/TimJohn/Desktop/Coursera/UCI HAR Dataset/tr
 Accelerometer_And_Gyro_Data = rbind(Accelerometer_And_Gyro_Data_test,Accelerometer_And_Gyro_Data_train)
 Activity = rbind(Activity_test,Activity_train)
 Subject = rbind(Subject_test,Subject_train)
-##And now we merge the data with for Accelerometer_And_Gyro_Data, Activity 
+##And now we merge the data for Accelerometer_And_Gyro_Data, Activity 
 ##and Subject, with the test data on top.
 ActivityVector = c("Walking","Walking Up Stairs","Walking Down Stairs", "Sitting","Standing","Laying")
 Activity=as.factor(sapply(Activity,function(i) ActivityVector[i]))
