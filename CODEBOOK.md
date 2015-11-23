@@ -222,7 +222,7 @@ This is the mean of the frequency signal of jerk in the Y plane. Jerk is the rat
 
 ##fBodyAccJerk-mean()-Z
 
-This is the mean of the frequency signal of jerk in the Y plane. Jerk is the rate of change of angular acceleration.
+This is the mean of the frequency signal of jerk in the Z plane. Jerk is the rate of change of angular acceleration.
 
 ##fBodyAccJerk-std()-X
 
@@ -258,7 +258,7 @@ This is the standard deviation of the sample distribution of the frequency  sign
 
 ##fBodyGyro-std()-Z
 
-This is the standard deviation of the sample distribution of the frequency  signal of angular acceleration in the X plane.
+This is the standard deviation of the sample distribution of the frequency  signal of angular acceleration in the Z plane.
 
 ##fBodyAccMag-mean()
 
